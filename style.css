@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(14, 14, 14);
+    color: rgb(229, 215, 215);
+    font-family: 'Inter', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 22px 52px;
+}
+
+.input-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 1fr;
+    grid-column-gap: 12px;
+    gap: 21px;
+}
+.input-container input{
+    background-color: rgb(14, 14, 14);
+    border: 1px solid lightgray;
+    height: 36px;
+    padding-left: 11px;
+    width: 371px;
+    color: lightgray;
+}
+
+.icons{
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+    gap:12px
+}
+
+.table{
+    border: 1px solid lightgray;
+    width:100%;
+    min-height: 210px;
+    overflow-x: auto;
+    font-size: 15px;
+    color: lightgray;
+}
+
+th,td{
+    text-align: center;
+}
+
+th{
+    border-bottom: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    padding: 12px;
+}
+
+td{
+    padding: 12px;
+    border: 2px solid lightgray;
+}
+
+tbody{
+    height: auto;
+}
+
+.search{
+    width:100%;
+    background-color: rgb(14, 14, 14);
+    border: 2px solid lightgray;
+    height: 36px;
+    margin-bottom: 32px;
+    margin-top: 22px;
+    width:100%;
+    padding-left: 11px;
+    color: lightgrey;
+}
+
+.button :hover{
+    cursor: pointer;
+}
+
+.button button{
+    font-weight: bold;
+    height: 36px;
+    width: 482px;
+    margin: 41px 41px 41px 0px;
+    margin-top: 32px;
+}
+
